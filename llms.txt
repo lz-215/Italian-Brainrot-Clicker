@@ -1,0 +1,7 @@
+# Fish Frenzy
+# Fish Frenzy is an online platform offering a variety of engaging fish-themed games. Users can enjoy underwater adventures, daily challenges, and a vibrant gaming community.
+
+Fish Frenzy is designed for players of all ages who love aquatic games and interactive entertainment. The site features responsive design and supports multiple languages for a global audience.
+
+## 核心内容
+[首页](https://fishfrenzy.com/): Fish Frenzy homepage introduces the main game features, how to play, pro tips, player reviews, latest updates, and frequently asked questions.
