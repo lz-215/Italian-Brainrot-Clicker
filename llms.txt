@@ -1,7 +1,7 @@
-# Fish Frenzy
-# Fish Frenzy is an online platform offering a variety of engaging fish-themed games. Users can enjoy underwater adventures, daily challenges, and a vibrant gaming community.
+# Italian Brainrot Clicker
+# Italian Brainrot Clicker is a hilarious meme-themed idle clicker game. Players click to unlock wild AI-generated scenes, meme upgrades, and endless surprises.
 
-Fish Frenzy is designed for players of all ages who love aquatic games and interactive entertainment. The site features responsive design and supports multiple languages for a global audience.
+Designed for meme lovers and casual gamers, the site features responsive design, regular updates, and supports multiple languages for a global audience.
 
 ## 核心内容
-[首页](https://fishfrenzy.com/): Fish Frenzy homepage introduces the main game features, how to play, pro tips, player reviews, latest updates, and frequently asked questions.
+[首页](https://italianbrainrotclicker.com/): The homepage introduces the main game features, how to play, pro tips, player reviews, latest updates, and frequently asked questions.

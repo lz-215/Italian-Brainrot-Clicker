@@ -1,104 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PJ3752E4KX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-PJ3752E4KX');
+    </script>
     <!-- 设置文档字符编码为UTF-8，确保正确显示各种语言字符 -->
     <meta charset="UTF-8">
     <!-- 设置视口，使网站在移动设备上正确缩放 -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- SEO元标签，用于搜索引擎优化 -->
-    <title>Fish Frenzy - Explore and Play the Top Online Fish-Themed Games Now</title>
+    <title>Italian Brainrot Clicker – The Funniest Meme Idle Clicker Game Online</title>
     <!-- 网站描述，用于搜索引擎结果展示 -->
-    <meta name="description" content=->"Fish Frenzy offers a wide selection of engaging fish-themed online games. Explore, play, and compete with friends while enjoying endless aquatic adventures and exciting challenges every day.">
+    <meta name="description" content=->"Italian Brainrot Clicker is a hilarious idle clicker game packed with memes,
+    wild visuals, and nonstop surprises. Click to unlock upgrades, enjoy chaos, and join a fun-loving community!">
     <!-- 规范链接，告诉搜索引擎这是网站的主要URL -
     <link rel="canonical" href="https://qdyijvshw.com">
     
     <!-- 网站图标设置 -->
     <link rel="icon" type="image/png" href="images/favicon.png">
-    
+
     <!-- 引入CSS样式文件 - 更新时间戳强制浏览器重新加载最新样式 -->
     <link rel="stylesheet" href="css/styles.css?v=20240517093001">
     <!-- 引入响应式设计样式文件，确保在不同设备上正常显示 -->
     <link rel="stylesheet" href="css/responsive.css?v=20240517093001">
-    
+
     <!-- 引入Google字体 - Press Start 2P，用于复古游戏风格的标题 -->
     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
-    
+
     <!-- 添加新的样式，用于新的布局结构 -->
     <style>
         /* 游戏区域容器样式 - 更新为两列布局，并设置宽度和居中 */
         .games-area-container {
             display: grid;
-            grid-template-columns: 2fr 1fr; /* 左侧为游戏，右侧为游戏信息 */
+            grid-template-columns: 2fr 1fr;
+            /* 左侧为游戏，右侧为游戏信息 */
             gap: 1rem;
             margin-bottom: 2rem;
-            width: 70%; /* 设置宽度为70% */
-            margin-left: auto; /* 左外边距自动，用于居中 */
-            margin-right: auto; /* 右外边距自动，用于居中 */
+            width: 70%;
+            /* 设置宽度为70% */
+            margin-left: auto;
+            /* 左外边距自动，用于居中 */
+            margin-right: auto;
+            /* 右外边距自动，用于居中 */
         }
-        
+
         /* 游戏信息区域全宽样式 - 设置宽度和居中 */
         .game-info-fullwidth {
-            width: 70%; /* 设置宽度为70% */
+            width: 70%;
+            /* 设置宽度为70% */
             background-color: var(--bg-section-green);
             border-radius: 8px;
             padding: 1.5rem;
             box-shadow: 0 2px 10px var(--shadow-color-general);
             margin-top: 1rem;
-            margin-left: auto; /* 左外边距自动，用于居中 */
-            margin-right: auto; /* 右外边距自动，用于居中 */
+            margin-left: auto;
+            /* 左外边距自动，用于居中 */
+            margin-right: auto;
+            /* 右外边距自动，用于居中 */
         }
-        
+
         /* 右侧游戏信息区域样式 - 移除max-height和overflow-y */
         .game-info-right {
             background-color: var(--bg-section-green);
             border-radius: 8px;
             padding: 1rem;
             /* box-shadow: 0 2px 10px var(--shadow-color-general); */
-            overflow-y: auto;  
-             max-height: 700px; 
+            overflow-y: auto;
+            max-height: 700px;
         }
-        
+
         /* 侧边游戏列表容器样式 */
         .side-games-container {
             margin-top: 1rem;
         }
-        
+
         /* "更多游戏"列表样式 */
         .game-list.left-games {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); 
-            gap: 1rem; 
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 1rem;
         }
 
         /* 为"更多游戏"列表中的游戏项移除默认的上下外边距 */
         .game-list.left-games .mini-game {
-            margin-top: 0; /* 移除上外边距 */
-            margin-bottom: 0; /* 移除下外边距 */
+            margin-top: 0;
+            /* 移除上外边距 */
+            margin-bottom: 0;
+            /* 移除下外边距 */
         }
-        
+
         /* 覆盖原有的 main 网格布局，改为正常流布局 */
         main {
             display: block !important;
             padding: 1rem;
         }
-        
+
         /* 修改 .main-game 的样式，使其适应新的布局 */
         .main-game {
             grid-area: unset;
             width: 100%;
         }
-        
+
         /* 响应式调整 */
         @media (max-width: 992px) {
             .games-area-container {
-                grid-template-columns: 1fr; 
+                grid-template-columns: 1fr;
                 grid-template-rows: auto auto;
-                width: 90%; /* 在中等屏幕上，宽度调整为90% */
+                width: 90%;
+                /* 在中等屏幕上，宽度调整为90% */
             }
-            
+
             .game-info-fullwidth {
-                width: 90%; /* 在中等屏幕上，宽度调整为90% */
+                width: 90%;
+                /* 在中等屏幕上，宽度调整为90% */
             }
 
             /* .game-info-right {
@@ -113,22 +135,25 @@
 
         @media (max-width: 768px) {
             .games-area-container {
-                width: 95%; /* 在小屏幕上，宽度调整为95% */
+                width: 95%;
+                /* 在小屏幕上，宽度调整为95% */
             }
-            
+
             .game-info-fullwidth {
-                width: 95%; /* 在小屏幕上，宽度调整为95% */
+                width: 95%;
+                /* 在小屏幕上，宽度调整为95% */
             }
         }
     </style>
 </head>
+
 <body>
     <!-- 页面顶部区域 -->
     <header>
         <!-- 网站Logo容器 -->
         <div class="logo-container">
             <!-- 使用h1标签包裹网站名称，提高SEO权重 -->
-            <h1 class="retro-logo">Fish Frenzy</h1>
+            <h1 class="retro-logo">Italian Brainrot Clicker</h1>
         </div>
         <!-- 多语言选择器，允许用户切换网站语言 -->
         <div class="language-selector">
@@ -252,7 +277,8 @@
                 <!-- 游戏容器，包含iframe嵌入的游戏和全屏按钮 -->
                 <div class="game-container">
                     <!-- 使用iframe嵌入外部游戏，设置ID便于JavaScript操作 -->
-                    <iframe id="mainGameFrame" src="https://www.crazygames.com/game/fish-frenzy" frameborder="0" allow="gamepad *;"></iframe>
+                    <iframe id="mainGameFrame" src="https://1games.io/italian-brainrot-clicker" frameborder="0"
+                        allow="gamepad *;"></iframe>
                     <!-- 全屏按钮，点击后可将游戏全屏显示 -->
                     <button id="fullscreenBtn" class="fullscreen-btn">Fullscreen</button>
                 </div>
@@ -263,21 +289,22 @@
                 <!-- 游戏操作指南 -->
                 <div class="how-to-play">
                     <h3>How to Play</h3>
-                    <p>To play Fish Frenzy, use your mouse or touch controls to move your net and catch as many fish as possible. The more fish you catch in Fish Frenzy, the higher your score. Watch out for special fish and power-ups!</p>
-    
-                    <p> Use the left mouse button or WASD or arrow keys to move.</p>
+                    <p>Click on the main character or anywhere on the game screen to earn brainrot. The more you click,
+                        the faster you unlock new upgrades and crazy scenes!</p>
+                    <p><strong>Controls:</strong> Use your mouse to click and interact with the game.</p>
                 </div>
-                
+
                 <!-- 游戏技巧提示 -->
                 <div class="game-tips">
                     <h3>Pro Tips</h3>
                     <ul>
                         <li>Master Fish Frenzy by focusing on rare fish and using power-ups wisely</li>
-                        <li>Practice makes perfect in Fish Frenzy, so keep playing to improve your skills and climb the leaderboard</li>
-                        
+                        <li>Practice makes perfect in Fish Frenzy, so keep playing to improve your skills and climb the
+                            leaderboard</li>
+
                     </ul>
                 </div>
-                
+
             </div>
         </div>
 
@@ -285,89 +312,99 @@
         <div class="game-info-fullwidth">
             <div class="game-info">
                 <!-- 游戏标题 -->
-                <h2>Fish Frenzy</h2>
-                
+                <h2>Italian Brainrot Clicker</h2>
+
                 <!-- 游戏截图展示区域，使用flex布局横向排列 -->
                 <div class="game-screenshots">
                     <img src="images/1.png" alt="Game Screenshot 1">
                     <img src="images/2.png" alt="Game Screenshot 2">
                     <img src="images/3.png" alt="Game Screenshot 3">
                 </div>
-                
+
                 <!-- 游戏特点列表 -->
                 <div class="game-features">
                     <h3>Game Features</h3>
                     <ul>
-                        <li>Fish Frenzy features beautiful underwater graphics and lively fish animations, making the game visually stunning.</li>
-                        <li>Enjoy a variety of unique fish to catch, each with special abilities and rewards.</li>
-                        <li>There are daily challenges and exciting events to keep players engaged and coming back for more fun.</li>
-                        <li>Compete with friends and players worldwide in leaderboards and tournaments.</li>
-                        <li>Fish Frenzy is easy to play but hard to master, providing endless entertainment for all ages.</li>
-                        <li>Regular updates ensure the game always brings new features and fresh gameplay experiences.</li>
+                        <li>Meme-inspired madness and wild AI creatures</li>
+                        <li>Weather-changing visuals and evolving backgrounds</li>
+                        <li>Insane 2x mode for instant new scenes</li>
+                        <li>Simple, addictive one-button gameplay</li>
+                        <li>Regular updates and new surprises</li>
                     </ul>
                 </div>
-                
+
                 <!-- 游戏描述文本 -->
                 <div class="game-description">
                     <h3>About the Game</h3>
-                    <p>Fish Frenzy is an exciting online game where players dive into a vibrant underwater world. In Fish Frenzy, you catch unique fish, earn rewards, and compete for the highest score. Enjoy endless fun and adventure with Fish Frenzy!</p>
+                    <p>Italian Brainrot Clicker is a hilarious one-button idle clicker that throws you into the chaotic
+                        charm of the Italian Brainrot universe. Click to earn brainrot, unlock meme-fueled upgrades, and
+                        experience wild, ever-evolving visuals. Dive into absurdity and see what you unlock next!</p>
                 </div>
                 <!-- 玩家评论区域 -->
                 <div class="player-reviews">
                     <h3>What Players Love</h3>
                     <div class="review">
-                        <p>Players love Fish Frenzy for its vibrant underwater graphics and smooth gameplay. The game offers exciting challenges and endless fun, making it a favorite among fans of online fish games.</p>
-                        <span>- Emily W.</span>
+                        <p>This clicker is absolutely hilarious! Every click brings a new meme or wild surprise. I can't
+                            stop laughing and playing!</p>
+                        <span>- Marco R.</span>
                     </div>
                     <div class="review">
-                        <p>This game stands out with its unique fish collection and rewarding achievements. The Fish Frenzy community is friendly and always ready for new adventures!</p>
-                        <span>- Alex T.</span>
+                        <p>The visuals and sound effects are pure chaos in the best way. It's the most addictive idle
+                            game I've tried!</p>
+                        <span>- Lucia B.</span>
                     </div>
                     <div class="review">
-                        <p>With Fish Frenzy, every session is a new aquatic adventure. The engaging features and regular updates keep me coming back for more.</p>
-                        <span>- Mia L.</span>
+                        <p>I love how the game keeps evolving. There's always something new and unexpected with every
+                            session!</p>
+                        <span>- Enzo D.</span>
                     </div>
                     <div class="review">
-                        <p>Fish Frenzy is the best choice for anyone who loves fish-themed games. The experience is truly unmatched!</p>
-                        <span>- Ryan S.</span>
+                        <p>Perfect for quick fun or long sessions. A must-play for anyone who loves memes and clicker
+                            games!</p>
+                        <span>- Sofia P.</span>
                     </div>
                 </div>
 
                 <!-- 网站优势介绍区域 -->
                 <div class="why-section">
-                    <h3>Why Choose Fish Frenzy?</h3>
+                    <h3>Why Choose Italian Brainrot Clicker?</h3>
                     <div class="why-content">
                         <div class="why-item">
-                            <h4>🌊 Unique Gameplay</h4>
-                            <p>Fish Frenzy offers a one-of-a-kind underwater adventure. You can catch rare fish, unlock achievements, and enjoy endless fun. The game is designed for players who love excitement and challenge.</p>
+                            <h4>😂 Unique Meme Experience</h4>
+                            <p>This game delivers a nonstop stream of meme-fueled fun. Every click brings new surprises,
+                                making each session unpredictable and hilarious.</p>
                         </div>
                         <div class="why-item">
-                            <h4>🎮 Engaging Features</h4>
-                            <p>Enjoy daily rewards, special events, and a variety of fish to collect. The experience is always fresh and exciting, keeping players coming back for more action.</p>
+                            <h4>🎨 Ever-Evolving Visuals</h4>
+                            <p>Enjoy wild, AI-generated scenes and backgrounds that change as you play. The experience
+                                never looks the same twice!</p>
                         </div>
                         <div class="why-item">
-                            <h4>🌍 Friendly Community</h4>
-                            <p>Join the Fish Frenzy community and connect with players worldwide. The platform encourages teamwork, sharing tips, and celebrating achievements together.</p>
+                            <h4>⚡ Addictive One-Button Gameplay</h4>
+                            <p>Simple to start, impossible to put down. Perfect for both quick breaks and long play
+                                sessions.</p>
                         </div>
                         <div class="why-item">
-                            <h4>🚀 Regular Updates</h4>
-                            <p>Fish Frenzy is updated frequently with new features, fish, and challenges. Stay tuned for the latest news and improvements!</p>
+                            <h4>🌍 Community & Updates</h4>
+                            <p>Join a growing community of meme lovers. The game is updated regularly with new content
+                                and features to keep things fresh!</p>
                         </div>
                     </div>
                 </div>
-                
+
                 <!-- 游戏更新信息 -->
                 <div class="game-updates">
                     <h3>Latest Updates</h3>
                     <ul>
-                        <li>Fish Frenzy introduces new rare fish and exciting underwater events in the latest update.</li>
-                        <li>Enjoy improved graphics and smoother gameplay for a better experience.</li>
-                        <li>Now featuring daily challenges and special rewards for active players.</li>
-                        <li>Regular updates ensure the game always brings fresh content and new adventures.</li>
-                        <li>Join the community to discover the latest features and share your feedback!</li>
+                        <li>New meme packs added! Now features even more hilarious content to unlock.</li>
+                        <li>Visual effects upgraded for extra chaos—expect wild backgrounds and unpredictable scenes!
+                        </li>
+                        <li>2x Mode introduced: Double your brainrot and unlock new surprises faster than ever.</li>
+                        <li>Performance improvements for smoother clicking and instant feedback.</li>
+                        <li>Stay tuned for upcoming community events and exclusive limited-time memes!</li>
                     </ul>
                 </div>
-                
+
                 <!-- 常见问题解答区域 -->
                 <div class="faq">
                     <h3>Frequently Asked Questions</h3>
@@ -375,17 +412,19 @@
                         <h4>Is this game free to play?</h4>
                         <p>Yes, all games on our platform are completely free!</p>
                     </div>
-    
+
                     <div class="faq-item">
                         <h4>What are the system requirements?</h4>
-                        <p>The game runs smoothly on most modern browsers. We recommend using Chrome or Firefox for the best experience.</p>
+                        <p>The game runs smoothly on most modern browsers. We recommend using Chrome or Firefox for the
+                            best experience.</p>
                     </div>
                     <div class="faq-item">
                         <h4>How do I save my progress?</h4>
-                        <p>Your progress is automatically saved when you're logged in. Make sure to create an account to keep track of your achievements.</p>
+                        <p>Your progress is automatically saved when you're logged in. Make sure to create an account to
+                            keep track of your achievements.</p>
                     </div>
                 </div>
-                
+
                 <!-- 侧边游戏列表移到About the Game下方 -->
                 <div class="side-games-container">
                     <!-- 游戏列表区域 - 合并了原左右两侧的游戏 -->
@@ -593,4 +632,5 @@
     <!-- 添加测试脚本，强制应用布局 -->
     <!-- <script src="test.js?v=20240517093500"></script> -->
 </body>
-</html> 
+
+</html>

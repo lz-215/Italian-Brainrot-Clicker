@@ -14,34 +14,33 @@ const translations = {
         'faq': 'Frequently Asked Questions',
         
         // 游戏特点部分
-        'feature-1': 'Beautiful underwater graphics and lively fish animations',
-        'feature-2': 'Unique fish to catch, each with special abilities and rewards',
-        'feature-3': 'Daily challenges and exciting events',
-        'feature-4': 'Compete with friends and players worldwide',
-        'feature-5': 'Easy to play but hard to master',
-        'feature-6': 'Regular updates with new features and gameplay',
+        'feature-1': 'Meme-inspired madness and wild AI creatures',
+        'feature-2': 'Weather-changing visuals and evolving backgrounds',
+        'feature-3': 'Insane 2x mode for instant new scenes',
+        'feature-4': 'Simple, addictive one-button gameplay',
+        'feature-5': 'Regular updates and new surprises',
         
         // 游戏操作指南部分
-        'controls': 'Use the left mouse button or WASD or arrow keys to move.',
+        'controls': 'Use your mouse to click and interact with the game.',
         
         // 玩家评论部分
-        'review-1': 'Players love Fish Frenzy for its vibrant underwater graphics and smooth gameplay. The game offers exciting challenges and endless fun, making it a favorite among fans of online fish games.',
-        'review-2': 'This game stands out with its unique fish collection and rewarding achievements. The Fish Frenzy community is friendly and always ready for new adventures!',
-        'review-3': 'With Fish Frenzy, every session is a new aquatic adventure. The engaging features and regular updates keep me coming back for more.',
-        'review-4': 'Fish Frenzy is the best choice for anyone who loves fish-themed games. The experience is truly unmatched!',
+        'review-1': 'This clicker is absolutely hilarious! Every click brings a new meme or wild surprise. I can\'t stop laughing and playing!',
+        'review-2': 'The visuals and sound effects are pure chaos in the best way. It\'s the most addictive idle game I\'ve tried!',
+        'review-3': 'I love how the game keeps evolving. There\'s always something new and unexpected with every session!',
+        'review-4': 'Perfect for quick fun or long sessions. A must-play for anyone who loves memes and clicker games!',
         
         // 网站优势部分
-        'why-1': 'Fish Frenzy offers a one-of-a-kind underwater adventure. You can catch rare fish, unlock achievements, and enjoy endless fun. The game is designed for players who love excitement and challenge.',
-        'why-2': 'Enjoy daily rewards, special events, and a variety of fish to collect. The experience is always fresh and exciting, keeping players coming back for more action.',
-        'why-3': 'Join the Fish Frenzy community and connect with players worldwide. The platform encourages teamwork, sharing tips, and celebrating achievements together.',
-        'why-4': 'Fish Frenzy is updated frequently with new features, fish, and challenges. Stay tuned for the latest news and improvements!',
+        'why-1': 'This game delivers a nonstop stream of meme-fueled fun. Every click brings new surprises, making each session unpredictable and hilarious.',
+        'why-2': 'Enjoy wild, AI-generated scenes and backgrounds that change as you play. The experience never looks the same twice!',
+        'why-3': 'Simple to start, impossible to put down. Perfect for both quick breaks and long play sessions.',
+        'why-4': 'Join a growing community of meme lovers. The game is updated regularly with new content and features to keep things fresh!',
         
         // 最新更新部分
-        'update-1': 'Fish Frenzy introduces new rare fish and exciting underwater events in the latest update.',
-        'update-2': 'Enjoy improved graphics and smoother gameplay for a better experience.',
-        'update-3': 'Now featuring daily challenges and special rewards for active players.',
-        'update-4': 'Regular updates ensure the game always brings fresh content and new adventures.',
-        'update-5': 'Join the community to discover the latest features and share your feedback!',
+        'update-1': 'New meme packs added! Now features even more hilarious content to unlock.',
+        'update-2': 'Visual effects upgraded for extra chaos—expect wild backgrounds and unpredictable scenes!',
+        'update-3': '2x Mode introduced: Double your brainrot and unlock new surprises faster than ever.',
+        'update-4': 'Performance improvements for smoother clicking and instant feedback.',
+        'update-5': 'Stay tuned for upcoming community events and exclusive limited-time memes!',
         
         // 常见问题解答部分
         'faq-1-q': 'Is this game free to play?',
@@ -69,12 +68,11 @@ const translations = {
         'faq': '常见问题',
         
         // 游戏特点部分
-        'feature-1': '精美的水下画面和生动的鱼类动画',
-        'feature-2': '多种独特鱼类可捕捉，每种都有特殊能力和奖励',
-        'feature-3': '每日挑战和精彩活动',
-        'feature-4': '与朋友和全球玩家同场竞技',
-        'feature-5': '易上手难精通，适合所有年龄',
-        'feature-6': '定期更新新功能和新玩法',
+        'feature-1': 'Meme-inspired madness and wild AI creatures',
+        'feature-2': 'Weather-changing visuals and evolving backgrounds',
+        'feature-3': 'Insane 2x mode for instant new scenes',
+        'feature-4': 'Simple, addictive one-button gameplay',
+        'feature-5': 'Regular updates and new surprises',
         
         // 游戏操作指南部分
         'controls': '使用鼠标左键、WASD或方向键进行移动。',
@@ -124,12 +122,11 @@ const translations = {
         'faq': 'よくある質問',
         
         // 游戏特点部分
-        'feature-1': '美しい水中グラフィックと生き生きとした魚のアニメーション',
-        'feature-2': '特別な能力や報酬を持つユニークな魚が多数登場',
-        'feature-3': '毎日のチャレンジとエキサイティングなイベント',
-        'feature-4': '友達や世界中のプレイヤーと競い合える',
-        'feature-5': '簡単操作で奥深い、全年齢向け',
-        'feature-6': '新機能や新しい遊び方を定期的に追加',
+        'feature-1': 'Meme-inspired madness and wild AI creatures',
+        'feature-2': 'Weather-changing visuals and evolving backgrounds',
+        'feature-3': 'Insane 2x mode for instant new scenes',
+        'feature-4': 'Simple, addictive one-button gameplay',
+        'feature-5': 'Regular updates and new surprises',
         
         // 游戏操作指南部分
         'controls': '左マウスボタン、WASDまたは矢印キーで移動します。',
@@ -179,12 +176,11 @@ const translations = {
         'faq': '자주 묻는 질문',
         
         // 游戏特点部分
-        'feature-1': '아름다운 수중 그래픽과 생생한 물고기 애니메이션',
-        'feature-2': '특별한 능력과 보상을 가진 다양한 물고기',
-        'feature-3': '매일 도전과 흥미로운 이벤트',
-        'feature-4': '친구 및 전 세계 플레이어와 경쟁',
-        'feature-5': '쉽게 시작하지만 마스터하기 어려움',
-        'feature-6': '새로운 기능과 플레이가 정기적으로 추가됨',
+        'feature-1': 'Meme-inspired madness and wild AI creatures',
+        'feature-2': 'Weather-changing visuals and evolving backgrounds',
+        'feature-3': 'Insane 2x mode for instant new scenes',
+        'feature-4': 'Simple, addictive one-button gameplay',
+        'feature-5': 'Regular updates and new surprises',
         
         // 游戏操作指南部分
         'controls': '마우스 왼쪽 버튼, WASD 또는 방향키로 이동하세요.',
@@ -234,12 +230,11 @@ const translations = {
         'faq': 'Preguntas Frecuentes',
         
         // 游戏特点部分
-        'feature-1': 'Gráficos submarinos hermosos y animaciones de peces vivas',
-        'feature-2': 'Peces únicos para atrapar, cada uno con habilidades y recompensas especiales',
-        'feature-3': 'Desafíos diarios y eventos emocionantes',
-        'feature-4': 'Compite con amigos y jugadores de todo el mundo',
-        'feature-5': 'Fácil de jugar pero difícil de dominar',
-        'feature-6': 'Actualizaciones regulares con nuevas funciones y modos de juego',
+        'feature-1': 'Meme-inspired madness and wild AI creatures',
+        'feature-2': 'Weather-changing visuals and evolving backgrounds',
+        'feature-3': 'Insane 2x mode for instant new scenes',
+        'feature-4': 'Simple, addictive one-button gameplay',
+        'feature-5': 'Regular updates and new surprises',
         
         // 游戏操作指南部分
         'controls': 'Usa el botón izquierdo del ratón, WASD o las flechas para moverte.',
